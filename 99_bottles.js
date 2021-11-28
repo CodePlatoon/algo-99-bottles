@@ -1,7 +1,6 @@
 function bottleSong(num) {
 
   for (let i = num; 0 <= i; i--) {
-    //console.log(i)
     switch (i){
       case 2:
         console.log(`${i} bottles of beer on the wall, ${i} bottles of beer. \nTake one down and pass it around, ${i-1} bottle of beer on the wall.`);
