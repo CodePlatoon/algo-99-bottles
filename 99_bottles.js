@@ -1,6 +1,6 @@
-function bottleSong() {
+function bottleSong(num) {
 
-  for (let i = 99; 0 <= i; i--) {
+  for (let i = num; 0 <= i; i--) {
     //console.log(i)
     switch (i){
       case 2:
@@ -18,4 +18,4 @@ function bottleSong() {
   }
 }
 
-bottleSong();
+bottleSong(10);
