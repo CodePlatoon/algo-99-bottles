@@ -7,4 +7,4 @@ function bottleSong(num) {
   else if (num<=0){console.log("empty: go to the store, get more beer")}
 };
 
-bottleSong(10);
+bottleSong(99);
