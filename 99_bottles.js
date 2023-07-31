@@ -21,7 +21,7 @@ function promptForInteger(message) {
   });
 }
 
-async function bottleSong(message) {
+async function bottleSong(message, drink) {
   while (true) {
     const userbeerbottlenum = await promptForInteger(message);
 
