@@ -1,5 +1,5 @@
 function main() {
-    for (let i = userbeerbottles; i > 2; i--) {
+    for (let i = userbeerbottles; i > 2 && i<=99; i--) {
       console.log(i, "bottles of beer on the wall,", i, "bottles of beer.");
       console.log("Take one down and pass it around,", i - 1, "bottles of beer on the wall.");
     }
@@ -17,10 +17,12 @@ function main() {
         console.log("Take one down and pass it around, no more bottles of beer on the wall.");
         console.log("No more bottles of beer on the wall, no more bottles of beer.");
         console.log("Go to the store and buy some more, 99 bottles of beer on the wall.");
+    }else {
+        console.log("Error Pick a number from 1 to 99");
     }
   }
   
 
-  let userbeerbottles = 5;
+  let userbeerbottles = 98;
   main();
   
