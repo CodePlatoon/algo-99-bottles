@@ -1,6 +1,10 @@
+# Takes integer input from the user and outputs the lyrics to the 99 Bottles of Beer on the Wall bottle 
+# Author: Dave Graham
+# Version 02292024
+
+
 def bottle_song():
-	# write your code here!
-    cnt = int(input('How many bottles would you like to sing about? '))
+	cnt = int(input('How many bottles would you like to sing about? '))
     while cnt > 1:
         message = f'{cnt} bottles of beer on the wall, {cnt} bottles of beer.'
         print(message)
