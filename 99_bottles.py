@@ -4,7 +4,7 @@
 
 
 def bottle_song():
-	cnt = int(input('How many bottles would you like to sing about? '))
+    cnt = int(input('How many bottles would you like to sing about? '))
     while cnt > 1:
         message = f'{cnt} bottles of beer on the wall, {cnt} bottles of beer.'
         print(message)
